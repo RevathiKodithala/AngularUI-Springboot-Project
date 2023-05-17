@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="jakarta.persistence.Table"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Column"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
+    <fullyQualifiedTypeName name="com.example.demo.Repo.PerRepo"/>
+    <fullyQualifiedTypeName name="com.example.demo.Entity.Order"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="com.example.demo.Entity.Person"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.CommandLineRunner"/>
+</qualifiedTypeNameHistroy>

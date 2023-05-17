@@ -1,0 +1,33 @@
+package com.example.demo.Controller;
+
+import java.util.Arrays;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.example.demo.Entity.Order;
+import com.example.demo.Entity.Person;
+import com.example.demo.Repo.OrderRepo;
+import com.example.demo.Repo.PerRepo;
+
+public class OrderPersonController {
+	@Autowired
+	private OrderRepo orderrepo;
+	
+	@Autowired
+	private PerRepo perrepo;
+	
+	public void run(String... args) throws Exception {
+		Order o1=new Order(101,"phone");
+		Order o2=new Order(102,"laptop");
+		Order o3=new Order(103,"Mouse");
+		
+		orderrepo.save(o1);
+		orderrepo.save(o2);
+		orderrepo.save(o3);
+		
+		Person prs=new Person(1,"Anish",Arrays.asList(o1,o2,o3));
+		
+		perrepo.save(prs);
+	}
+
+}

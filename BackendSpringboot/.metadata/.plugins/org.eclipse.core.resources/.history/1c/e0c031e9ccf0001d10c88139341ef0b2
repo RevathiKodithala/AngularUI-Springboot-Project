@@ -1,0 +1,11 @@
+package com.example.demo.Controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.example.demo.Repo.OrderRepo;
+
+public class OrderPersonController {
+	@Autowired
+	private OrderRepo orderrepo;
+
+}
